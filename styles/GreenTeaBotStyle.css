@@ -2,6 +2,11 @@ html {
     background-color: black;
 }
 
+body{
+  margin: auto;
+  padding: 0 20px 20px 20px;
+}
+
 #first-text {
   padding: 0 20px 20px 20px;
 }
@@ -12,7 +17,7 @@ h1 {
     text-align: center;
     font-family: 'Chivo Mono', monospace;
     color: olivedrab;
-    margin: 0;
+    margin: 0 auto;
     text-shadow: 3px 3px 1px white;
 }
 
@@ -45,7 +50,7 @@ ul {
   /*display: block;*/
   width: 600px;
   height: 350px;
-  margin: 10px left;
+  margin: 10px right;
   padding: 25px 10px 10px 10px;
 }
 
