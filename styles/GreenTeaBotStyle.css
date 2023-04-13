@@ -4,7 +4,6 @@ html {
 
 #first-text {
   padding: 0 20px 20px 20px;
-  border: 5px solid white;
 }
 
 
@@ -43,10 +42,10 @@ ul {
 }
 
 #first-slide{
-  display: block;
+  /*display: block;*/
   width: 600px;
   height: 350px;
   margin: 10px left;
-  padding: 75px 10px 10px 10px;
+  padding: 25px 10px 10px 10px;
 }
 
