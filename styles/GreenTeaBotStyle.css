@@ -1,11 +1,43 @@
-p {
-    color: red;
-    width: 500px;
-    border: 1px solid black;
+html {
+    background-color: f4f3ee;
 }
 
 h1 {
-    margin: 0px 0px 0px 250px;
+    font-size: 50px;
+    text-align: center;
     font-family: 'Chivo Mono', monospace;
     color: olivedrab;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+}
+
+p {
+    color: olivedrab;
+    width: 60%;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+a {
+    color: olivedrab;
+    font-size: 16px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+ul {
+    color: #A441A4;
+    font-size: 16px;
+    width: 60%;
+    line-height: 2;
+    letter-spacing: 0.5xpx;
+    font-family: 'Chivo Mono', monospace;
+}
+
+#bot-avatar {
+    float: right;
+    border: 25px;
+    margin-right: 0%;
+    width: 400px;
+    height: 450px;
 }
