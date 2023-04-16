@@ -1,4 +1,4 @@
-var myImage = document.querySelector('#first-slide');
+var myImage = document.querySelector('.first-slide');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');

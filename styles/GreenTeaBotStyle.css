@@ -1,56 +1,146 @@
-html {
-    background-color: black;
+html{
+  scroll-behavior: smooth;
 }
 
-body{
-  margin: auto;
-  padding: 0 20px 20px 20px;
+header{
+  margin: -8px -8px 0px -8px;
+  text-align: center;
+  background-image: linear-gradient(#5cdb95, #50448f);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Tilt Prism', cursive;
 }
 
-#first-text {
-  padding: 0 20px 20px 20px;
+.top-left-label{
+  display: block;
+  margin: -70px 0px 0px 75px;
+  width: 125px;
+  height: auto;
+}
+
+.a-about-me{
+  display: block;
+  padding: 50px 0px 0px 0px;
+  margin: 0px;
+}
+
+.about-me-href{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.a-buy-plus{
+  display: block;
+  padding: 0px;
+  margin: -40px 0px 0px 550px;
+}
+
+.buy-plus-href{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+.a-requisites{
+  display: block;
+  padding: 0px;
+  margin: -40px 0px 0px 1100px;
+}
+
+.requisites-href{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+h1{
+  font-size: 60px;
+  width: 70%;
+  padding: 50px 50px 0px 190px;
+}
+
+.prebuy{
+  padding: 15px 40px;
+  margin: 0px 150px 100px 150px;
+  font-size: 24px;
+  color: whitesmoke;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Tilt Prism', cursive;
+  background-image: linear-gradient(to left, #57056b 40%, #5cdb95);
+  background-size: 300% auto;
+  transition: .5s;
+}
+
+.prebuy:hover{
+  background-position: right center;
+  box-shadow: 1px 1px 15px whitesmoke;
+}
+
+main{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0px -8px -8px -8px;
+}
+
+.row1{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-image: url("../images/background-img.jpeg");
+  background-position: center;
+  background-size: 1400px 700px;
+}
+
+.left1{
+  flex: 45%;
+  padding: -150px 10px -50px 10px;
+  color: #8ee4af;
+  font-family: 'Dancing Script', cursive;
+  font-size: 19px;
+}
+
+.left1-h1{
+  padding: -150px 10px 0px 10px;
+  margin: -10px 10px 0px 10px;
+}
+
+.right1{
+  flex: 50%;
+  padding: 0px;
+  margin: 150px 0px 30px 0px;
+}
+
+.row2{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 
-h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Chivo Mono', monospace;
-    color: olivedrab;
-    margin: 0 auto;
-    text-shadow: 3px 3px 1px white;
+.left2{
+  flex: 45%;
+  background: #5cdb95;
+  padding: 50px 10px 10px 10px;
 }
 
-p {
-    width: 700px;
-    margin: 0 left;
-    color: olivedrab;
-    text-align: left;
-    font-size: 16px;
-    font-family: 'Chivo Mono', monospace;
-    
+.right2{
+  flex: 50%;
+  background: #5cdb95;
+  padding: 10px;
+  color: #05386b;
+  font-family: 'Dancing Script', cursive;
+  font-size: 19px;
 }
 
-a {
-    color: olivedrab;
-    font-size: 16px;
-    font-family: 'Chivo Mono', monospace;
+@media (min-width: 720px) {
+  .row {
+      flex-direction: column;
+  }
 }
-
-ul {
-    width: 700px;
-    margin: 0 left;
-    color: #A441A4;
-    font-size: 16px;
-    font-family: 'Chivo Mono', monospace;
-    
-}
-
-#first-slide{
-  /*display: block;*/
-  width: 600px;
-  height: 350px;
-  margin: 10px right;
-  padding: 25px 10px 10px 10px;
-}
-
