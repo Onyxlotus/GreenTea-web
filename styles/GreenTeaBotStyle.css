@@ -142,7 +142,7 @@ main{
   font-size: 19px;
 }
 
-@media (min-width: 320px) and (max-width: 768px){
+@media (max-width: 768px){
   .row1 {
     /*flex-direction: column;*/
     min-width: 100px;
