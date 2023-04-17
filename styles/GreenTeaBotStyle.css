@@ -155,26 +155,29 @@ main{
   }
   .left1{
     flex: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
+    margin: 10px;
   }
   .left1-h1{
     padding: 0px;
     margin: 0px;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
   }
   .right1{
-    min-width: 100px;
+    min-width: 320px;
     max-width: 768px;
     height: auto;
     flex: 100%;
     padding: 0px;
     margin: 0px;
+    display: -ms-flexbox;
+    display: flex;
   }
   .first-slide{
-    min-width: 100px;
+    min-width: 320px;
     max-width: 768px;
     height: auto;
+    flex: 100%;
   }
 }
