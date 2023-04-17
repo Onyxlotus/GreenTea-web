@@ -145,5 +145,6 @@ main{
 @media (min-width: 320px) {
   .row1 {
       flex-direction: column;
+      max-width: 320px;
   }
 }
